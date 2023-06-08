@@ -51,6 +51,7 @@
 .recipe-row:hover {
     transform: scale(1.1);
     z-index: 2;
+    filter: brightness(40%);
 }
 
 .img-container {
@@ -67,6 +68,15 @@
     height: 100%;
     object-fit: cover; 
     object-position: center; 
+}
+
+.recipe-info {
+    position: absolute;
+    top: 10%;
+}
+
+.recipe-info::after {
+
 }
 
 .recipe-backdrop {
